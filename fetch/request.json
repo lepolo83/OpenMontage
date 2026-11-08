@@ -1,0 +1,13 @@
+{
+  "project": "psaume-23",
+  "width": 1920,
+  "allowed_licenses": ["public domain", "pd", "cc0", "cc-0"],
+  "images": [
+    {"id": "bon-berger-1", "search": "Good Shepherd painting Christ lamb on shoulders"},
+    {"id": "bon-berger-2", "search": "Le Bon Berger tableau Jésus brebis"},
+    {"id": "bergers-brebis-1", "title": "File:Anton Mauve - Flock of sheep with shepherd in the snow - Google Art Project.jpg"},
+    {"id": "bergers-brebis-2", "title": "File:August Fink - Shepherd with his Flock in the Evening Light.jpg"},
+    {"id": "david-berger-1", "title": "File:David the Shepherd, Elizabeth Jane Gardner.jpg"},
+    {"id": "david-berger-2", "search": "young David shepherd harp painting"}
+  ]
+}
