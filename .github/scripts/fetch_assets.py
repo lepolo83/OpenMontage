@@ -36,13 +36,17 @@ def ok_license(meta, allowed):
     return any(lic == a or lic.startswith(a) for a in allowed), clean(meta.get("LicenseShortName", {}).get("value"))
 
 def candidates(item, width):
+    out = []
     if "title" in item:
         d = info(None, width, titles=item["title"])
-    else:
-        d = info(None, width, generator="search", gsrsearch="filetype:bitmap " + item["search"],
-                 gsrnamespace=6, gsrlimit=15)
-    pages = sorted(d.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 0))
-    return [p for p in pages if p.get("imageinfo")]
+        out += list(d.get("query", {}).get("pages", {}).values())
+    for term in ([item["search"]] if "search" in item else []) + item.get("fallback_searches", []):
+        d = info(None, width, generator="search", gsrsearch="filetype:bitmap " + term,
+                 gsrnamespace=6, gsrlimit=20)
+        pages = sorted(d.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 0))
+        print(f"  recherche « {term} » -> {len(pages)} résultat(s)", flush=True)
+        out += pages
+    return [p for p in out if p.get("imageinfo")]
 
 def main():
     req = json.load(open("fetch/request.json", encoding="utf-8"))
@@ -55,8 +59,9 @@ def main():
         for p in candidates(item, width):
             ii = p["imageinfo"][0]; meta = ii.get("extmetadata", {})
             good, lic = ok_license(meta, allowed)
-            if p["title"] in used or not good: continue
-            if ii.get("mime") not in ("image/jpeg", "image/png") or ii.get("width", 0) < 1000: continue
+            why = ("déjà utilisé" if p["title"] in used else "licence " + lic if not good else
+                   "type/taille" if ii.get("mime") not in ("image/jpeg", "image/png") or ii.get("width", 0) < 1000 else "")
+            if why: print(f"  rejeté ({why}): {p['title']}", flush=True); continue
             chosen = (p, ii, meta, lic); break
         if not chosen: print(f"  AUCUN candidat valide pour {item['id']}"); sys.exit(1)
         p, ii, meta, lic = chosen; used.add(p["title"])
