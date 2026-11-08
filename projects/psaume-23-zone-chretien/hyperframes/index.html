@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, height=1920">
+<title>Psaume 23 — Zone-Chrétien</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>
+  :root { --navy:#0B1E3D; --gold:#D4AF37; --ivory:#F6EFD9; }
+  html, body { margin:0; background:var(--navy); }
+  #root { position:relative; width:1080px; height:1920px; overflow:hidden; background:var(--navy);
+          font-family:'Playfair Display', Georgia, serif; color:var(--ivory); }
+  .layer { position:absolute; inset:0; }
+  #bgfill { background:radial-gradient(120% 80% at 50% 30%, #17356b 0%, #0B1E3D 55%, #060f20 100%); }
+  .clip { position:absolute; }
+  .scene { left:0; top:0; width:1080px; height:1920px; overflow:hidden; }
+  .veil { position:absolute; inset:0; background:#0B1E3D; }
+  .bgimg { position:absolute; left:-60px; top:-60px; width:1200px; height:2040px; object-fit:cover;
+           filter:blur(38px) brightness(.38) saturate(.9); }
+  .frame { position:absolute; left:54px; top:250px; width:972px; height:1040px; overflow:hidden;
+           border:3px solid var(--gold); border-radius:6px; box-shadow:0 30px 80px rgba(0,0,0,.55); background:#08142a; }
+  .frame.placeholder { background:linear-gradient(160deg,#16335f,#0B1E3D); }
+  .photo { position:absolute; left:0; top:0; width:100%; height:100%; object-fit:cover; }
+  .credit { position:absolute; left:54px; top:1304px; width:972px; text-align:right; font:400 24px 'Inter', sans-serif;
+            letter-spacing:.06em; color:rgba(212,175,55,.8); }
+  #topline { left:0; top:112px; width:1080px; text-align:center; z-index:20; }
+  #topline .k { font:600 30px 'Inter', sans-serif; letter-spacing:.5em; color:var(--gold); }
+  #topline .r { width:120px; height:2px; background:var(--gold); margin:22px auto 0; }
+  .sub { left:70px; top:1400px; width:940px; height:330px; z-index:30; display:flex; align-items:flex-start; justify-content:center; }
+  .sub p { margin:0; text-align:center; font:500 58px/1.28 'Playfair Display', Georgia, serif; color:var(--ivory);
+           text-shadow:0 3px 26px rgba(0,0,0,.9); }
+  #brand { left:0; top:1810px; width:1080px; text-align:center; font:500 26px 'Inter', sans-serif;
+           letter-spacing:.42em; color:rgba(212,175,55,.75); z-index:20; }
+  #intro { left:0; top:0; width:1080px; height:1920px; z-index:40; }
+  #intro .wrap { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  #intro h1 { margin:0; font:700 150px 'Playfair Display', serif; color:var(--gold); letter-spacing:.02em; }
+  #intro .sm { font:500 34px 'Inter', sans-serif; letter-spacing:.4em; color:var(--ivory); margin-top:30px; }
+  #intro .bar { width:160px; height:3px; background:var(--gold); margin:36px 0; }
+  #end { left:0; top:0; width:1080px; height:1920px; z-index:50; }
+  #end .bg { position:absolute; inset:0; background:radial-gradient(110% 70% at 50% 40%, #17356b 0%, #0B1E3D 60%, #060f20 100%); }
+  #end .wrap { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:0 90px; box-sizing:border-box; }
+  #end h2 { margin:0; font:700 112px/1.05 'Playfair Display', serif; color:var(--gold); }
+  #end .dash { font:400 70px 'Playfair Display', serif; color:var(--gold); margin:26px 0 8px; }
+  #end p { margin:0; font:500 50px/1.4 'Playfair Display', serif; color:var(--ivory); max-width:860px; }
+  #end .rule { width:220px; height:3px; background:var(--gold); margin:44px 0 0; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="psaume23" data-width="1080" data-height="1920" data-start="0" data-duration="54.0">
+  <div id="bgfill" class="layer"></div>
+  <section id="scene-0" class="clip scene" data-start="3.60" data-duration="45.31" data-track-index="1"><div class="veil"></div><div class="frame placeholder"></div></section>
+  <div id="topline" class="clip" data-start="3.80" data-duration="44.71" data-track-index="6"><div class="k">PSAUME 23</div><div class="r"></div></div>
+  <div id="sub-0" class="clip sub" data-start="3.68" data-duration="3.76" data-track-index="5"><p>L’Éternel est mon berger : je ne manquerai de rien.</p></div><div id="sub-1" class="clip sub" data-start="7.52" data-duration="2.95" data-track-index="5"><p>Il me fait reposer dans de verts pâturages,</p></div><div id="sub-2" class="clip sub" data-start="10.50" data-duration="2.97" data-track-index="5"><p>il me dirige près des eaux paisibles.</p></div><div id="sub-3" class="clip sub" data-start="13.90" data-duration="1.84" data-track-index="5"><p>Il restaure mon âme,</p></div><div id="sub-4" class="clip sub" data-start="15.77" data-duration="4.02" data-track-index="5"><p>il me conduit dans les sentiers de la justice, à cause de son nom.</p></div><div id="sub-5" class="clip sub" data-start="20.22" data-duration="3.23" data-track-index="5"><p>Quand je marche dans la vallée de l’ombre de la mort,</p></div><div id="sub-6" class="clip sub" data-start="23.48" data-duration="4.13" data-track-index="5"><p>je ne crains aucun mal, car tu es avec moi :</p></div><div id="sub-7" class="clip sub" data-start="27.64" data-duration="2.87" data-track-index="5"><p>ta houlette et ton bâton me rassurent.</p></div><div id="sub-8" class="clip sub" data-start="30.84" data-duration="3.92" data-track-index="5"><p>Tu dresses devant moi une table, en face de mes adversaires ;</p></div><div id="sub-9" class="clip sub" data-start="34.79" data-duration="3.44" data-track-index="5"><p>tu oins d’huile ma tête, et ma coupe déborde.</p></div><div id="sub-10" class="clip sub" data-start="38.66" data-duration="5.13" data-track-index="5"><p>Oui, le bonheur et la grâce m’accompagneront tous les jours de ma vie,</p></div><div id="sub-11" class="clip sub" data-start="43.82" data-duration="4.14" data-track-index="5"><p>et j’habiterai dans la maison de l’Éternel jusqu’à la fin de mes jours.</p></div>
+  <div id="brand" class="clip" data-start="3.80" data-duration="44.71" data-track-index="7">ZONE-CHRÉTIEN</div>
+  <div id="intro" class="clip" data-start="0" data-duration="4.60" data-track-index="8">
+    <div class="wrap"><h1 id="i-h">Psaume 23</h1><div class="bar" id="i-bar"></div><div class="sm" id="i-sm">LOUIS SEGOND · 1910</div></div>
+  </div>
+  <div id="end" class="clip" data-start="48.51" data-duration="5.49" data-track-index="9">
+    <div class="bg"></div>
+    <div class="wrap"><h2 id="e-h">Zone-Chrétien</h2><div class="dash" id="e-d">—</div><p id="e-p">La Parole. La Louange. L'Impact.</p><div class="rule" id="e-r"></div></div>
+  </div>
+  <audio id="mix" src="assets/mix.wav" data-start="0" data-duration="54.0" data-track-index="20" data-volume="1"></audio>
+</div>
+<script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({ paused: true });
+  // intro
+  tl.from("#i-h", {opacity:0, y:30, duration:1.1, ease:"power2.out"}, 0.2);
+  tl.from("#i-bar", {scaleX:0, duration:0.9, ease:"power2.out"}, 0.9);
+  tl.from("#i-sm", {opacity:0, duration:0.9, ease:"power1.out"}, 1.3);
+  tl.to("#intro", {opacity:0, duration:0.8, ease:"power1.inOut"}, 3.80);
+  // scènes + caméra
+    tl.fromTo("#scene-0", {opacity:0}, {opacity:1, duration:0.8, ease:"power1.inOut"}, 3.60);
+  // sous-titres
+    tl.from("#sub-0 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 3.68);tl.to("#sub-0 p", {opacity:0, duration:0.25, ease:"power1.in"}, 7.19);
+  tl.from("#sub-1 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 7.52);tl.to("#sub-1 p", {opacity:0, duration:0.25, ease:"power1.in"}, 10.22);
+  tl.from("#sub-2 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 10.50);tl.to("#sub-2 p", {opacity:0, duration:0.25, ease:"power1.in"}, 13.22);
+  tl.from("#sub-3 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 13.90);tl.to("#sub-3 p", {opacity:0, duration:0.25, ease:"power1.in"}, 15.49);
+  tl.from("#sub-4 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 15.77);tl.to("#sub-4 p", {opacity:0, duration:0.25, ease:"power1.in"}, 19.54);
+  tl.from("#sub-5 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 20.22);tl.to("#sub-5 p", {opacity:0, duration:0.25, ease:"power1.in"}, 23.20);
+  tl.from("#sub-6 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 23.48);tl.to("#sub-6 p", {opacity:0, duration:0.25, ease:"power1.in"}, 27.36);
+  tl.from("#sub-7 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 27.64);tl.to("#sub-7 p", {opacity:0, duration:0.25, ease:"power1.in"}, 30.26);
+  tl.from("#sub-8 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 30.84);tl.to("#sub-8 p", {opacity:0, duration:0.25, ease:"power1.in"}, 34.51);
+  tl.from("#sub-9 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 34.79);tl.to("#sub-9 p", {opacity:0, duration:0.25, ease:"power1.in"}, 37.98);
+  tl.from("#sub-10 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 38.66);tl.to("#sub-10 p", {opacity:0, duration:0.25, ease:"power1.in"}, 43.54);
+  tl.from("#sub-11 p", {opacity:0, y:18, duration:0.35, ease:"power2.out"}, 43.82);tl.to("#sub-11 p", {opacity:0, duration:0.25, ease:"power1.in"}, 47.71);
+  // carton final
+  tl.from("#end", {opacity:0, duration:1.0, ease:"power1.inOut"}, 48.51);
+  tl.from("#e-h", {opacity:0, y:34, duration:1.0, ease:"power2.out"}, 49.01);
+  tl.from("#e-d", {opacity:0, duration:0.6}, 49.71);
+  tl.from("#e-p", {opacity:0, y:20, duration:1.0, ease:"power2.out"}, 50.11);
+  tl.from("#e-r", {scaleX:0, duration:0.9, ease:"power2.out"}, 50.71);
+  window.__timelines["psaume23"] = tl;
+</script>
+</body>
+</html>

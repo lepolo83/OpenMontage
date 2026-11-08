@@ -1,0 +1,77 @@
+{
+ "total": 54.0,
+ "cues": [
+  {
+   "text": "L’Éternel est mon berger : je ne manquerai de rien.",
+   "start": 3.8,
+   "end": 7.09,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c00.wav"
+  },
+  {
+   "text": "Il me fait reposer dans de verts pâturages,",
+   "start": 7.64,
+   "end": 10.12,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c01.wav"
+  },
+  {
+   "text": "il me dirige près des eaux paisibles.",
+   "start": 10.62,
+   "end": 13.12,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c02.wav"
+  },
+  {
+   "text": "Il restaure mon âme,",
+   "start": 14.02,
+   "end": 15.39,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c03.wav"
+  },
+  {
+   "text": "il me conduit dans les sentiers de la justice, à cause de son nom.",
+   "start": 15.89,
+   "end": 19.44,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c04.wav"
+  },
+  {
+   "text": "Quand je marche dans la vallée de l’ombre de la mort,",
+   "start": 20.34,
+   "end": 23.1,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c05.wav"
+  },
+  {
+   "text": "je ne crains aucun mal, car tu es avec moi :",
+   "start": 23.6,
+   "end": 27.26,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c06.wav"
+  },
+  {
+   "text": "ta houlette et ton bâton me rassurent.",
+   "start": 27.76,
+   "end": 30.16,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c07.wav"
+  },
+  {
+   "text": "Tu dresses devant moi une table, en face de mes adversaires ;",
+   "start": 30.96,
+   "end": 34.41,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c08.wav"
+  },
+  {
+   "text": "tu oins d’huile ma tête, et ma coupe déborde.",
+   "start": 34.91,
+   "end": 37.88,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c09.wav"
+  },
+  {
+   "text": "Oui, le bonheur et la grâce m’accompagneront tous les jours de ma vie,",
+   "start": 38.78,
+   "end": 43.44,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c10.wav"
+  },
+  {
+   "text": "et j’habiterai dans la maison de l’Éternel jusqu’à la fin de mes jours.",
+   "start": 43.94,
+   "end": 47.61,
+   "file": "projects/psaume-23-zone-chretien/assets/audio/seg/c11.wav"
+  }
+ ]
+}

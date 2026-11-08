@@ -1,0 +1,24 @@
+{"ts": "2026-11-08T06:38:54.102843+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c00.wav"}
+{"ts": "2026-11-08T06:38:55.168512+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c00.wav", "success": true, "cost_usd": 0.0, "duration_s": 1.07}
+{"ts": "2026-11-08T06:38:55.219959+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c01.wav"}
+{"ts": "2026-11-08T06:38:56.208140+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c01.wav", "success": true, "cost_usd": 0.0, "duration_s": 0.99}
+{"ts": "2026-11-08T06:38:56.256127+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c02.wav"}
+{"ts": "2026-11-08T06:38:57.195706+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c02.wav", "success": true, "cost_usd": 0.0, "duration_s": 0.94}
+{"ts": "2026-11-08T06:38:57.259015+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c03.wav"}
+{"ts": "2026-11-08T06:38:58.076850+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c03.wav", "success": true, "cost_usd": 0.0, "duration_s": 0.82}
+{"ts": "2026-11-08T06:38:58.121677+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c04.wav"}
+{"ts": "2026-11-08T06:38:59.057360+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c04.wav", "success": true, "cost_usd": 0.0, "duration_s": 0.94}
+{"ts": "2026-11-08T06:38:59.107473+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c05.wav"}
+{"ts": "2026-11-08T06:39:00.105753+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c05.wav", "success": true, "cost_usd": 0.0, "duration_s": 1.0}
+{"ts": "2026-11-08T06:39:00.145418+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c06.wav"}
+{"ts": "2026-11-08T06:39:01.185865+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c06.wav", "success": true, "cost_usd": 0.0, "duration_s": 1.04}
+{"ts": "2026-11-08T06:39:01.238206+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c07.wav"}
+{"ts": "2026-11-08T06:39:02.204647+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c07.wav", "success": true, "cost_usd": 0.0, "duration_s": 0.97}
+{"ts": "2026-11-08T06:39:02.245144+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c08.wav"}
+{"ts": "2026-11-08T06:39:03.282197+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c08.wav", "success": true, "cost_usd": 0.0, "duration_s": 1.04}
+{"ts": "2026-11-08T06:39:03.336707+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c09.wav"}
+{"ts": "2026-11-08T06:39:04.357870+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c09.wav", "success": true, "cost_usd": 0.0, "duration_s": 1.02}
+{"ts": "2026-11-08T06:39:04.401148+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c10.wav"}
+{"ts": "2026-11-08T06:39:05.402139+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c10.wav", "success": true, "cost_usd": 0.0, "duration_s": 1.0}
+{"ts": "2026-11-08T06:39:05.459979+00:00", "tool": "piper_tts", "event": "start", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c11.wav"}
+{"ts": "2026-11-08T06:39:06.504436+00:00", "tool": "piper_tts", "event": "finish", "output_path": "projects/psaume-23-zone-chretien/assets/audio/seg/c11.wav", "success": true, "cost_usd": 0.0, "duration_s": 1.04}
