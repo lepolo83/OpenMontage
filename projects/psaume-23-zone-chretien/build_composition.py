@@ -84,7 +84,7 @@ doc = f"""<!doctype html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=1080, height=1920">
 <title>Psaume 23 — Zone-Chrétien</title>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script src="assets/gsap.min.js"></script>
 <style>
   :root {{ --navy:{NAVY}; --gold:{GOLD}; --ivory:#F6EFD9; }}
   html, body {{ margin:0; background:var(--navy); }}
