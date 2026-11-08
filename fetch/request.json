@@ -19,11 +19,17 @@
     },
     {
       "id": "bon-berger-2",
-      "search": "Bon Berger",
+      "search": "Plockhorst Good Shepherd",
       "fallback_searches": [
-        "Jesus Good Shepherd oil painting",
         "Good Shepherd Murillo",
-        "Christ the Good Shepherd"
+        "Christ the Good Shepherd painting",
+        "Philippe de Champaigne Good Shepherd"
+      ],
+      "exclude": [
+        "plaque",
+        "rue ",
+        "Lyon",
+        "Baptistery"
       ]
     },
     {

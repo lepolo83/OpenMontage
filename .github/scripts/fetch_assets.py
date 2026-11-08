@@ -61,6 +61,7 @@ def main():
             good, lic = ok_license(meta, allowed)
             why = ("déjà utilisé" if p["title"] in used else "licence " + lic if not good else
                    "type/taille" if ii.get("mime") not in ("image/jpeg", "image/png") or ii.get("width", 0) < 1000 else "")
+            if any(x.lower() in p["title"].lower() for x in item.get("exclude", [])): why = "exclu"
             if why: print(f"  rejeté ({why}): {p['title']}", flush=True); continue
             chosen = (p, ii, meta, lic); break
         if not chosen: print(f"  AUCUN candidat valide pour {item['id']}"); sys.exit(1)
